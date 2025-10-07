@@ -18,3 +18,4 @@ spec:
   owner: group:default/development
   lifecycle: production
   system: projeto-1
+  dependsOn: backend
