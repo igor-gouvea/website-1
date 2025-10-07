@@ -19,4 +19,5 @@ spec:
   lifecycle: production
   system: projeto-1
   dependsOn:
-    - "component:default/backend"
+    - component:default/api-1
+    - component:default/api-2
