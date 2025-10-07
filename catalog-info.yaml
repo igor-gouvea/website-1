@@ -19,4 +19,4 @@ spec:
   lifecycle: production
   system: projeto-1
   dependsOn:
-    - "resource:default/backend"
+    - "component:default/backend"
