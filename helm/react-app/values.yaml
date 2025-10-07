@@ -1,0 +1,17 @@
+deployment:
+  name: website-1
+  replicas: 1
+  repository: iagouvea/website-1
+  tag: "9e6acc9"
+
+
+service:
+  name: website-1-svc
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  name: website-1-ingress
+  className: "nginx"
+  host: website-1.dev.local

@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: website-1
+  description: Starter React app for init the development process
+  annotations:
+   github.com/project-slug: igor-gouvea/website-1
+   backstage.io/techdocs-ref: dir:.
+  tags:
+    - react
+    - website
+  links:
+    - url: http://website-1.dev.local
+      title: Development API
+      icon: dashboard
+spec:
+  type: service
+  owner: group:default/development
+  lifecycle: production
+  system: projeto-1
