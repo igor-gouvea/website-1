@@ -21,3 +21,5 @@ spec:
   dependsOn:
     - component:default/api-1
     - component:default/api-2
+  dependencyOf:
+    - resource:default/kong
